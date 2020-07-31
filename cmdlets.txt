@@ -1,0 +1,15 @@
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y
+
+sudo apt-get install python ffmpeg git curl wget rsync vim nano -y
+
+sudo apt install python3-pip -y
+
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+sudo apt-get install speedtest-cli neofetch -y
+
+sudo pip3 install instaloader -y
+
+sudo apt-get autoclean -y && sudo apt-get auto-remove -y
